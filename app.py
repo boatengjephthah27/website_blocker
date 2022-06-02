@@ -1,0 +1,43 @@
+
+host_path = "\etc\hosts"
+redirect = "127.0.0.1"
+site_list = ["facebook.com", "youtube.com", "gmail.com", "freecoursesite.com", "www.facebook.com", "www.youtube.com", "www.gmail.com", "www.freecoursesite.com"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
