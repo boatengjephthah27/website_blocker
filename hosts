@@ -18,12 +18,3 @@
 
 # localhost name resolution is handled within DNS itself.
 #	127.0.0.1       localhost
-#	::1             localhost127.0.0.1 facebook.com
-127.0.0.1 youtube.com
-127.0.0.1 gmail.com
-127.0.0.1 freecoursesite.com
-127.0.0.1 www.facebook.com
-127.0.0.1 www.youtube.com
-127.0.0.1 www.gmail.com
-127.0.0.1 www.freecoursesite.com
-127.0.0.1 https://mail.google.com/mail/u/0/#inbox
