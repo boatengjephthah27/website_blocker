@@ -11,7 +11,7 @@ site_list = ["facebook.com", "youtube.com", "gmail.com", "freecoursesite.com", "
 
 
 while True:
-    if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 16):
+    if dt(dt.now().year, dt.now().month, dt.now().day, 9) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 16):
         print("Working hours.....")
         with open(host_temp, "r+") as file:
             content = file.read()
@@ -24,6 +24,12 @@ while True:
         
 
     else:
+        with open(host_temp, "r+") as file:
+            contents = file.readlines()
+            for lines in contents:
+                if not any(website in lines for website in site_list):
+                    file.write(lines)
+
         print("Time to sleep!")
 
     t.sleep(10)
