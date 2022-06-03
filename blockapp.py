@@ -5,7 +5,9 @@ from datetime import datetime as dt
 
 # Creating the necessary instances for the various path and https.
 host_temp = "hosts" # temp file to check if program works
-host_path = "\etc\hosts"  # True path to run the program
+host_path_mac = "\etc\hosts"  # True path to the file running the program on mac[ absolute path]
+host_path_windows = "" # True path to the file running the program on windows[ absolute path]
+
 redirect = "127.0.0.1"   # site to redirect the websites to if searched
 site_list = ["facebook.com", "youtube.com", "gmail.com", "freecoursesite.com", "www.facebook.com", "www.youtube.com", "www.gmail.com", "www.freecoursesite.com",
 "https://mail.google.com/mail/u/0/#inbox", "www.twitter.com", "twitter.com", "netflix.com", "www.netflix.com", "www.yahoo.com", "yahoo.com"]   # lists of websites to block
@@ -43,7 +45,7 @@ while True:
 
         print("Time to sleep!")
 
-    t.sleep(10)
+    t.sleep(20)
 
 
 
